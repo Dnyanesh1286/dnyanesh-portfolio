@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -250,14 +250,11 @@ export default function Home() {
             {/* PHOTO */}
             <div className="profile-wrapper">
               <div className="profile-frame">
-                <Image
-                  src="/profile.jpg.jpg"
-                  alt="Dnyanesh Patil"
-                  width={420}
-                  height={520}
-                  priority
-                  className="profile-image"
-                />
+                <img
+                     src="/profile.jpg"
+                     alt="Dnyanesh Patil"
+                     className="profile-image"
+                    />
               </div>
 
               <div className="profile-caption">
