@@ -533,7 +533,7 @@ export default function Home() {
               Email
             </a>
             <div className="contact-item">
-           <span>Phone</span>
+           
            <a href="tel:+919370533703">
             +91 93705 33703
           </a>
