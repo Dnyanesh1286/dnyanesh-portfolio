@@ -532,6 +532,12 @@ export default function Home() {
             <a href="mailto:dnyaneshpatil1414@gmail.com">
               Email
             </a>
+            <div className="contact-item">
+           <span>Phone</span>
+           <a href="tel:+919370533703">
+            +91 93705 33703
+          </a>
+          </div>
           </div>
         </div>
       </section>
